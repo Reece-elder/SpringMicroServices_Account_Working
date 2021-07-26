@@ -5,8 +5,8 @@ import java.util.Random;
 import org.springframework.stereotype.Service;
 
 @Service
-public class NumberGenService {
-
+public class NumGenService {
+	
 	private Random random = new Random();
 
 	private final String[] characters = { "a", "b", "c" };
@@ -26,5 +26,4 @@ public class NumberGenService {
 
 		return accountNumber;
 	}
-	
 }
